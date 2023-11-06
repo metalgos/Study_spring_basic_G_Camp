@@ -1,8 +1,0 @@
-INDEX VERSION 1.4+C:\eGovFrame-4.1.0\workspace.edu\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-96129301.index
-1388759741.index
-2237164897.index
-158013047.index
-4000386580.index
-2546177938.index
-836265023.index
