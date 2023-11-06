@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SynchronizeViewSettings">
+		<item key="linkWithEditor" value="false"/>
+		<item key="lastactiveparticipant_id" value="org.eclipse.egit.ui.modelCompareParticipant"/>
+		<item key="lastactiveparticipant_sec_id" value="1699192287382"/>
+		<section name="org.eclipse.team.svn.ui.synchronize.update.SynchronizeModelParticipant.1678942248948">
+			<item key="org.eclipse.team.ui.activeModelProvider" value="org.eclipse.team.ui.activeModelProvider"/>
+		</section>
+		<section name="org.eclipse.team.svn.ui.synchronize.update.SynchronizeModelParticipant.1679016073904">
+			<item key="org.eclipse.team.ui.activeModelProvider" value="org.eclipse.team.ui.activeModelProvider"/>
+		</section>
+		<section name="org.eclipse.egit.ui.modelCompareParticipant.1699191905698">
+		</section>
+		<section name="org.eclipse.egit.ui.modelCompareParticipant.1699191982730">
+		</section>
+		<section name="org.eclipse.egit.ui.modelCompareParticipant.1699192287382">
+		</section>
+	</section>
+	<section name="ConfigureProjectWizard">
+		<item key="selectedWizardId" value="org.eclipse.egit.ui.internal.sharing.SharingWizard"/>
+	</section>
+</section>
