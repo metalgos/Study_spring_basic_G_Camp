@@ -25,6 +25,7 @@ public class MainClass {
 		}
 		
 		Student student3 = ctx.getBean("student3", Student.class);
+		
 		System.out.println(student3.getName());
 		
 		if(student1.equals(student3)) {

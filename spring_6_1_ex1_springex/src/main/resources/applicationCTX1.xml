@@ -14,7 +14,7 @@
 				<value>공기놀이</value>
 			</list>
 		</constructor-arg>
-		
+				
 		<property name="height">
 			<value>126</value>
 		</property>
