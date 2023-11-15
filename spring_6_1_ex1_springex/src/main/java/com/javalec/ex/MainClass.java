@@ -38,8 +38,7 @@ public class MainClass {
 		System.out.println(family.getPapaName());
 		System.out.println(family.getMamiName());
 		System.out.println(family.getSisterName());
-		System.out.println(family.getBrotherName());
-		
+		System.out.println(family.getBrotherName());		
 		ctx.close();
 		
 	}
