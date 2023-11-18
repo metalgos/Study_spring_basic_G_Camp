@@ -1,0 +1,47 @@
+package com.javalec.ex;
+
+import java.util.ArrayList;
+
+public class Student {
+
+	private String name;
+	private int age;
+	private ArrayList<String> hobbys;
+	
+	
+	public String getName() {
+		return name;
+	}
+	
+	
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+
+	
+	
+	
+	public Student(String string) {
+		this.name = string;
+	}
+
+
+
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public ArrayList<String> getHobbys() {
+		return hobbys;
+	}
+	public void setHobbys(ArrayList<String> hobbys) {
+		this.hobbys = hobbys;
+	}
+	
+	
+	
+}
