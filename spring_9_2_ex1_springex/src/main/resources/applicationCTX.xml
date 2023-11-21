@@ -10,6 +10,7 @@
 	<aop:config>
 		<aop:aspect id="logger" ref="logAop">
 			<aop:pointcut id="publicM" expression="within(com.javalec.ex.*)"  />
+			<!-- aop 범위 설정 -->
 			<aop:around pointcut-ref="publicM" method="loggerAop" />
 		</aop:aspect>
 	</aop:config>
