@@ -13,8 +13,7 @@
 			<!-- aop 범위 설정 -->
 			<aop:around pointcut-ref="publicM" method="loggerAop" />
 		</aop:aspect>
-	</aop:config>
-	
+	</aop:config>	
 	<bean id="student" class="com.javalec.ex.Student" >
 		<property name="name" value="홍길동" />
 		<property name="age" value="10" />
