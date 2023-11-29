@@ -15,6 +15,7 @@
 		</aop:aspect>
 	</aop:config>
 	
+	
 	<bean id="student" class="com.javalec.ex.Student" >
 		<property name="name" value="홍길동" />
 		<property name="age" value="10" />
