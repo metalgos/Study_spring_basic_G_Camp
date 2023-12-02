@@ -14,14 +14,14 @@
 			<aop:around pointcut-ref="publicM" method="loggerAop" />
 		</aop:aspect>
 	</aop:config>
-	
-	
+			
 	<bean id="student" class="com.javalec.ex.Student" >
 		<property name="name" value="홍길동" />
 		<property name="age" value="10" />
 		<property name="gradeNum" value="3" />
 		<property name="classNum" value="5" />
 	</bean>
+	
 	
 	<bean id="worker" class="com.javalec.ex.Worker" >
 		<property name="name" value="홍길순" />
