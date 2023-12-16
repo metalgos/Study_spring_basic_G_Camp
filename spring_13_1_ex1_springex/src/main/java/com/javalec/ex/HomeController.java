@@ -19,6 +19,7 @@ import com.javalec.ex.member.Member;
 /**
  * Handles requests for the application home page.
  */
+//스프링 생성시 기본 컨트롤러
 @Controller
 public class HomeController {
 	
