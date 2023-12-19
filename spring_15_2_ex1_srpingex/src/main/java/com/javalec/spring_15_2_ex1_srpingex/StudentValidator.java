@@ -23,7 +23,7 @@ public class StudentValidator implements Validator {
 			errors.rejectValue("name", "trouble");
 		}
 		*/
-		
+		//validation()메소드를 편리하게 사용가능. Static이라서 객체 없이 바로 메소드 사용가능
 		ValidationUtils.rejectIfEmptyOrWhitespace(errors, "name", "trouble");
 		
 		int studentId = student.getId();
