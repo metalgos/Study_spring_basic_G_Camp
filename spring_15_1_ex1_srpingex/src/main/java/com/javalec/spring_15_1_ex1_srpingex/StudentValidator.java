@@ -4,7 +4,7 @@ import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
 
 public class StudentValidator implements Validator {
-
+//Validator 인터페이스이므로 구현해야함
 	@Override
 	public boolean supports(Class<?> arg0) {
 		return Student.class.isAssignableFrom(arg0);  // 검증할 객체의 클래스 타입 정보
