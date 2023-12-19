@@ -27,6 +27,7 @@ public class StudentController {
 		return page;
 	}
 	*/
+	
 	//@valid 검증할 객체
 	//@initbinder 검증을 실행하는 메소드
 	@RequestMapping("/student/create")
