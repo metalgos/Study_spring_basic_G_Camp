@@ -11,7 +11,6 @@ import javax.naming.InitialContext;
 import javax.sql.DataSource;
 
 import com.javalec.spring_16_1_ex1_srpingex.dto.BDto;
-
 //스프링이 아닌 서블릿 소스를 mvc 패턴 스프링 프로젝트로 변경하기 시작
 public class BDao {
 
