@@ -41,7 +41,8 @@ public class HomeController {
 	public String index() {
 		return "index";
 	}
-	
+
+	//@모델 어트비류트로 vo dto객체 이름 model담을때 변경가능
 	@RequestMapping("/studentView")
 	public String studentView(@ModelAttribute("studentInfo") StudentInformation studentInformation){
 		return "studentView";
