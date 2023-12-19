@@ -27,7 +27,7 @@ public class BController {
 	
 	public JdbcTemplate template;
 	
-	@Autowired
+	@Autowired // jdbc 템플릿 빈이 자동 주입되서 사용되게 오토와이어드 사용
 	public void setTemplate(JdbcTemplate template) {
 		this.template = template;
 		Constant.template = this.template;
