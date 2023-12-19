@@ -4,6 +4,7 @@ import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
 
 public class StudentValidator implements Validator {
+	
 //Validator 인터페이스이므로 구현해야함
 	@Override
 	public boolean supports(Class<?> arg0) {
