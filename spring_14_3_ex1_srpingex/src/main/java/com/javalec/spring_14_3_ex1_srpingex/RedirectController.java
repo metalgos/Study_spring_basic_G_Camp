@@ -32,7 +32,7 @@ public class RedirectController {
 		
 		return "student/studentNg";
 	}
-	
+	//리다이렉트 이용하여 루트경로 통해서 이동하거나, 주소 통쨰로 입력하여 이동가능
 	@RequestMapping("/studentURL1")
 	public String studentURL1(Model model) {
 		
