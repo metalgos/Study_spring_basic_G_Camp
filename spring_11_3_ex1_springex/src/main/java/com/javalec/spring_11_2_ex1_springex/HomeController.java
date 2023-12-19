@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 /**
  * Handles requests for the application home page.
  */
+//get post방식 구분. mothd=RequestMethod.GET POST사용
 @Controller
 public class HomeController {
 	
