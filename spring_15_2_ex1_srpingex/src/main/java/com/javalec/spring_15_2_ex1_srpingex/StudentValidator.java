@@ -24,6 +24,7 @@ public class StudentValidator implements Validator {
 		}
 		*/
 		//validation()메소드를 편리하게 사용가능. Static이라서 객체 없이 바로 메소드 사용가능
+		//rejectIfEmptyOrWhitespace : 공백과 비어있는 값을 검증가능
 		ValidationUtils.rejectIfEmptyOrWhitespace(errors, "name", "trouble");
 		
 		int studentId = student.getId();
