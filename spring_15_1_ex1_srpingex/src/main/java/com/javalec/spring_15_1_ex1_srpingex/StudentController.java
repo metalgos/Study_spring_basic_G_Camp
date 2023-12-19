@@ -20,6 +20,7 @@ public class StudentController {
 		
 		StudentValidator validator = new StudentValidator();
 		validator.validate(student, result);
+		//BindingResult 의 hasErrors()에 검증 결과가 담긴다
 		if(result.hasErrors()) {
 			page = "createPage";
 		}
