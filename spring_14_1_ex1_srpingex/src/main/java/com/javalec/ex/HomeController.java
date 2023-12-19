@@ -44,6 +44,7 @@ public class HomeController {
 		return "index";
 	}
 	
+	
 //get post방식 구분. mothd=RequestMethod.GET POST사용
 	@RequestMapping(method = RequestMethod.GET, value = "/student")
 	public String goStudent(HttpServletRequest httpServletRequest, Model model) {
