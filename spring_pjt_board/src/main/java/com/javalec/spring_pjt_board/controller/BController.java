@@ -21,7 +21,7 @@ import com.javalec.spring_pjt_board.util.Constant;
 
 @Controller
 public class BController {
-
+//모든 서비스를 하나의 컨트롤러에서 제어
 	BCommand command;
 	
 	public JdbcTemplate template;
