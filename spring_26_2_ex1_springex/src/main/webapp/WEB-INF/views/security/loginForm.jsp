@@ -11,6 +11,8 @@
 <h1>loginForm.jsp</h1>
 <c:url value="j_spring_security_check" var="loginUrl"/>
 <form action="${loginUrl}" method="post">
+
+<!-- 설정한 파라미터로 스프링 시큐리티에서 보내주는 데이터를 가지고 확인한다 -->
 	<c:if test="${param.ng != null}">
 	<p>
 		LogIn NG! <br />
