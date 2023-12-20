@@ -9,6 +9,7 @@
 
 	<security:http auto-config="true">
 		<security:form-login login-page="/loginForm.html"
+			<!-- 로그인 성공 실패 확인을 위해 추가 -->
 					authentication-failure-url="/loginForm.html?ng"/>
 		<security:intercept-url pattern="/login.html*" access="ROLE_USER"/>
 		<security:intercept-url pattern="/welcome.html*" access="ROLE_ADMIN"/>
