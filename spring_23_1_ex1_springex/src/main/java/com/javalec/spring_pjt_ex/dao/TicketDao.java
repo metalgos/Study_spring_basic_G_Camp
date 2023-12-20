@@ -43,7 +43,7 @@ public class TicketDao {
 		System.out.println("buyTicket()");
 		System.out.println("dto.getConsumerId() : " + dto.getConsumerId());
 		System.out.println("dto.getAmount() : " + dto.getAmount());
-		
+		//트라이 캐치 없이 사용가능
 		transactionTemplate.execute(new TransactionCallbackWithoutResult() {
 			
 			@Override
