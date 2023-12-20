@@ -18,6 +18,7 @@
 <p> is Log-Out</p>
 </c:if>
 
+<!-- 로그인시 유저 아이디와 로그아웃 버튼시 디폴트 패이지 이동 경로 -->
 USER ID : ${pageContext.request.userPrincipal.name}<br/>
 <a href="${pageContext.request.contextPath}/j_spring_security_logout">Log Out</a> <br />
 
