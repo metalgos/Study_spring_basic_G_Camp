@@ -12,7 +12,7 @@
 			/WEB-INF/spring/appServlet/security-context.xml
 			</param-value>
 	</context-param>
-	
+	<!-- 시큐리티 필터 추가해주기-->
 	<filter>
         <filter-name>springSecurityFilterChain</filter-name>
         <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
