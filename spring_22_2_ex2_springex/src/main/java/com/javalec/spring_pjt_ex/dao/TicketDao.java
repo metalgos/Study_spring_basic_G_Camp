@@ -16,13 +16,15 @@ import com.javalec.spring_pjt_ex.dto.TicketDto;
 public class TicketDao {
 
 	JdbcTemplate template;
-	
+
+	//여러 구현체중 jdbc에 맞는 구현체를 선택
 	PlatformTransactionManager transactionManager;
 	
 	public void setTemplate(JdbcTemplate template) {
 		this.template = template;
 	}
-	
+
+	//빈주입 위해 세터 설정, 서블릿 컨텍스트에서 빈주입 설정 
 	public void setTransactionManager( PlatformTransactionManager transactionManager) {
 		this.transactionManager = transactionManager;
 	}
@@ -68,12 +70,12 @@ public class TicketDao {
 					return pstmt;
 				}
 			});
-		
+		//성공시 커밋
 			transactionManager.commit(status);
 			
 		} catch (Exception e) {
 			e.printStackTrace();
-			
+			//실패시 롤백
 			transactionManager.rollback(status);
 		}
 	}
