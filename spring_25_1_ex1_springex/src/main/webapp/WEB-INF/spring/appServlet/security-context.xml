@@ -6,12 +6,12 @@
 					http://www.springframework.org/schema/beans/spring-beans.xsd
 					http://www.springframework.org/schema/security
 					http://www.springframework.org/schema/security/spring-security-3.2.xsd">
-
+<!-- 시큐리티 설정 요청을 중간에 가로채서 검사, 롤에 해당하는 유저만 승인-->
 	<security:http auto-config="true">
 		<security:intercept-url pattern="/login.html*" access="ROLE_USER"/>
 		<security:intercept-url pattern="/welcome.html*" access="ROLE_ADMIN"/>
 	</security:http>
-	
+	<!-- 롤에 대한 정보를 설정한다-->
 	<security:authentication-manager>
 		<security:authentication-provider>
 			<security:user-service>
