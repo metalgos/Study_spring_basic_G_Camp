@@ -8,7 +8,8 @@
 		SELECT * FROM BOARD ORDER BY MID DESC
 	</select>
 	
-	
+
+	<!-- 파라미터 param1 2 를 이용하여 차례로 들어오는 데이터를 대입하여 쓴다. 아주 예전 개발방식인듯 -->
 	<insert id="writeDao">
 		INSERT INTO BOARD (MID, MWRITER, MCONTENT) VALUES (BOARD_SEQ.NEXTVAL, #{param1}, #{param2})
 	</insert>
