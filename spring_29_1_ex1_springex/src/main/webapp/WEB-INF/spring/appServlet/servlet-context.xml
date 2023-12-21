@@ -37,12 +37,14 @@
 	<beans:bean name="dao" class="com.javalec.spring_mybatis.dao.ContentDao">
 		<beans:property name="template" ref="template"></beans:property>
 	</beans:bean>
-	
+
+	<!-- 마이바티스 설정 -->
 	<beans:bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<beans:property name="dataSource" ref="dataSource"></beans:property>
+		<!-- 매퍼 경로 설정 -->
 		<beans:property name="mapperLocations" value="classpath:com/javalec/spring_mybatis/dao/mapper/*.xml"></beans:property>
 	</beans:bean>
-	
+	<!-- 세션 팩토리를 참조하는 세션 생성, 실재로는 이것을 사용  -->
 	<beans:bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">
 		<beans:constructor-arg index="0" ref="sqlSessionFactory"></beans:constructor-arg>
 	</beans:bean>
