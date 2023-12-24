@@ -14,6 +14,7 @@
 		<org.slf4j-version>1.6.6</org.slf4j-version>
 	</properties>
 	<dependencies>
+		<!-- 	mvc 기초 파라미터 http서블릿,파람,dto vo, 패스 베리어블 공부 -->
 		<!-- Spring -->
 		<dependency>
 			<groupId>org.springframework</groupId>
