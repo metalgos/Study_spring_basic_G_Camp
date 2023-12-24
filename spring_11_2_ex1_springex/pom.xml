@@ -15,6 +15,7 @@
 	</properties>
 	<dependencies>
 		<!-- Spring -->
+		<!-- mvc 기초 파라미터 http서블릿,파람,dto vo, 패스 베리어블 공부 -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
